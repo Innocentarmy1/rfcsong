@@ -146,12 +146,12 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"**🎸 ᴘʟᴇᴀsᴡ ❤️ ᴍᴀɴᴜᴀʟʟʏ 🥀 ᴀᴅᴅ 💫 ᴀssɪsᴛᴀɴᴛ 😔 ᴏʀ 🎸 ᴄᴏɴᴛᴀᴄᴛ ❤️ ᴛᴏ : @Dr_Asad_Ali 🥀** ")
+                        f"**🎸 ᴘʟᴇᴀsᴡ ❤️ ᴍᴀɴᴜᴀʟʟʏ 🥀 ᴀᴅᴅ 💫 ᴀssɪsᴛᴀɴᴛ 😔 ᴏʀ 🎸 ᴄᴏɴᴛᴀᴄᴛ ❤️ ᴛᴏ : @Deewana_mahadev_ka 🥀** ")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"**🎸 ᴘʟᴇᴀsᴇ ❤️ ᴍᴀɴᴜᴀʟʟʏ 🥀 ᴀᴅᴅ 💫 ᴀssɪsᴛᴀɴᴛ 😔 ᴏʀ 🎸 ᴄᴏɴᴛᴀᴄᴛ ❤️ ᴛᴏ : @Dr_Asad_Ali 🥀 ...*")
+            f"**🎸 ᴘʟᴇᴀsᴇ ❤️ ᴍᴀɴᴜᴀʟʟʏ 🥀 ᴀᴅᴅ 💫 ᴀssɪsᴛᴀɴᴛ 😔 ᴏʀ 🎸 ᴄᴏɴᴛᴀᴄᴛ ❤️ ᴛᴏ : @Deewana_mahadev_ka 🥀 ...*")
         return
     
     audio = (
@@ -164,12 +164,12 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"**💥 ᴘʟᴀʏ 🔊 ᴍᴜsɪᴄ 💿 ʟᴇss ⚡️\n🤟 ᴛʜᴀɴ ⚡️ {DURATION_LIMIT} 💞 ᴍɪɴᴜᴛᴇs ...**"
+                f"**💥 ʀғᴄ 🔊 ᴍᴜsɪᴄ 💿 ʟᴇss ⚡️\n🤟 ᴛʜᴀɴ ⚡️ {DURATION_LIMIT} 💞 ᴍɪɴᴜᴛᴇs ...**"
             )
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/d2474446333064333a8a0.png"
+        thumb_name = "https://te.legra.ph/file/0a3dc38df20f1b82564db.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -214,29 +214,29 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("❤️ ᴏᴡɴᴇʀ ❤️", url=f"https://t.me/Dr_Asad_Ali"),
-                InlineKeyboardButton("👨‍‍👧‍👦 ɢʀᴏᴜᴘ 👨‍👧‍👦", url=f"https://t.me/Shayri_Music_Lovers"),
+                InlineKeyboardButton("❤️ ᴏᴡɴᴇʀ ❤️", url=f"https://t.me/Deewana_mahadev_ka"),
+                InlineKeyboardButton("👨‍‍👧‍👦 ɢʀᴏᴜᴘ 👨‍👧‍👦", url=f"https://t.me/Rfc_team"),
             ]
         ]
     )
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/d2474446333064333a8a0.png"
+            thumb_name = "https://te.legra.ph/file/0a3dc38df20f1b82564db.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("❤️ ᴏᴡɴᴇʀ ❤️", url=f"https://t.me/Dr_Asad_Ali"),
-                InlineKeyboardButton("👨‍‍👧‍👦 ɢʀᴏᴜᴘ 👨‍👧‍👦", url=f"https://t.me/Shayri_Music_Lovers"),
+                InlineKeyboardButton("❤️ ᴏᴡɴᴇʀ ❤️", url=f"https://t.me/Deewana_mahadev_ka"),
+                InlineKeyboardButton("👨‍‍👧‍👦 ɢʀᴏᴜᴘ 👨‍👧‍👦", url=f"https://t.me/rfc_team"),
             ]
         ]
     )
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"**💥 ᴘʟᴀʏ 🔊 ᴍᴜsɪᴄ 💿 ʟᴇss ⚡️\n🤟 ᴛʜᴀɴ ⚡️ {DURATION_LIMIT} 💞 ᴍɪɴᴜᴛᴇs ...**"
+                f"**💥 ʀғᴄ 🔊 ᴍᴜsɪᴄ 💿 ʟᴇss ⚡️\n🤟 ᴛʜᴀɴ ⚡️ {DURATION_LIMIT} 💞 ᴍɪɴᴜᴛᴇs ...**"
             )
             return
         requested_by = message.from_user.first_name
@@ -280,15 +280,15 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("❤️ ᴏᴡɴᴇʀ ❤️", url=f"https://t.me/Dr_Asad_Ali"),
-                InlineKeyboardButton("👨‍‍👧‍👦 ɢʀᴏᴜᴘ 👨‍👧‍👦", url=f"https://t.me/Shayri_Music_Lovers"),
+                InlineKeyboardButton("❤️ ᴏᴡɴᴇʀ ❤️", url=f"https://t.me/Deewana_mahadev_ka"),
+                InlineKeyboardButton("👨‍‍👧‍👦 ɢʀᴏᴜᴘ 👨‍👧‍👦", url=f"https://t.me/rfc_team"),
             ]
         ]
     )
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"**💥 ᴘʟᴀʏ 🔊 ᴍᴜsɪᴄ 💿 ʟᴇss ⚡️\n🤟 ᴛʜᴀɴ ⚡️ {DURATION_LIMIT} 💞 ᴍɪɴᴜᴛᴇs ...**"
+                f"**💥 ʀғᴄ 🔊 ᴍᴜsɪᴄ 💿 ʟᴇss ⚡️\n🤟 ᴛʜᴀɴ ⚡️ {DURATION_LIMIT} 💞 ᴍɪɴᴜᴛᴇs ...**"
             )
             return
         requested_by = message.from_user.first_name
@@ -302,7 +302,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**💥 Aʟᴇxᴀ 🤞 ᴀᴅᴅᴇᴅ 💿 sᴏɴɢ❗️\n🔊 ᴀᴛ ᴡᴀɪᴛɪɴɢ 💞 ᴘᴏsɪᴛɪᴏɴ » `{}` 🌷 ...**".format(position),
+            caption="**💥 ʀғᴄ 🤞 ᴀᴅᴅᴇᴅ 💿 sᴏɴɢ❗️\n🔊 ᴀᴛ ᴡᴀɪᴛɪɴɢ 💞 ᴘᴏsɪᴛɪᴏɴ » `{}` 🌷 ...**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -319,7 +319,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**💥 Aʟᴇxᴀ🤞 ᴍᴜsɪᴄ 🎸 ɴᴏᴡ 💞\n🔊 ᴘᴀʟʏɪɴɢ ᴀᴛ 😍 ʏᴏᴜʀ ɢʀᴏᴜᴘ 🥀 ...**".format(),
+            caption="**💥 ʀғᴄ🤞 ᴍᴜsɪᴄ 🎸 ɴᴏᴡ 💞\n🔊 ᴘᴀʟʏɪɴɢ ᴀᴛ 😍 ʏᴏᴜʀ ɢʀᴏᴜᴘ 🥀 ...**".format(),
            )
 
     os.remove("final.png")
@@ -332,8 +332,8 @@ async def play(_, message: Message):
 async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/c87a11663d606d0204f98.jpg", 
-                             caption="**💥 Aʟᴇxᴀ🔈 ᴍᴜsɪᴄ 🤞 ɴᴏᴡ 🥀\n▶️ ᴘᴀᴜsᴇᴅ ᴛᴏ ʀᴇsᴜᴍᴇ /resume 🌷 ...**"
+                             photo="https://te.legra.ph/file/0a3dc38df20f1b82564db.jpg", 
+                             caption="**💥 ʀғᴄ 🔈 ᴍᴜsɪᴄ 🤞 ɴᴏᴡ 🥀\n▶️ ᴘᴀᴜsᴇᴅ ᴛᴏ ʀᴇsᴜᴍᴇ /resume 🌷 ...**"
     )
 
 
@@ -377,8 +377,8 @@ async def skip(_, message: Message):
 
 
     await message.reply_photo(
-                             photo="https://telegra.ph/file/113b6e72f70c128f48abb.jpg", 
-                             caption=f'**💥 Aʟᴇxᴀ 🔈 ᴍᴜsɪᴄ 🤞ɴᴏᴡ 🥀\n⏩ sᴋɪᴘᴘᴇᴅ 🌷 ...**'
+                             photo="https://te.legra.ph/file/0a3dc38df20f1b82564db.jpg", 
+                             caption=f'**💥 ʀғᴄ 🔈 ᴍᴜsɪᴄ 🤞ɴᴏᴡ 🥀\n⏩ sᴋɪᴘᴘᴇᴅ 🌷 ...**'
    ) 
 
 
@@ -393,8 +393,8 @@ async def stop(_, message: Message):
 
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/83426a8b5221e9c5cd5e7.jpg", 
-                             caption="**💥 Aʟᴇxᴀ 🔈 ᴍᴜsɪᴄ 🤞 ɴᴏᴡ 🥀\n❌ ᴇɴᴅᴇᴅ 🌷 ...**"
+                             photo="https://te.legra.ph/file/0a3dc38df20f1b82564db.jpg", 
+                             caption="**💥 ʀғᴄ 🔈 ᴍᴜsɪᴄ 🤞 ɴᴏᴡ 🥀\n❌ ᴇɴᴅᴇᴅ 🌷 ...**"
     )
 
 
@@ -411,6 +411,6 @@ async def admincache(client, message: Message):
     )
 
     await message.reply_photo(
-                              photo="https://telegra.ph/file/b92ed11ca9259ec96aaee.jpg",
-                              caption="**💥 Aʟᴇxᴀ 🔈 ᴍᴜsɪᴄ 🤞 ɴᴏᴡ 🥀\n🔥 Rᴇʟᴏᴀᴅᴇᴅ 🌷 ...**"
+                              photo="https://te.legra.ph/file/0a3dc38df20f1b82564db.jpg",
+                              caption="**💥 ʀғᴄ 🔈 ᴍᴜsɪᴄ 🤞 ɴᴏᴡ 🥀\n🔥 Rᴇʟᴏᴀᴅᴇᴅ 🌷 ...**"
     )
