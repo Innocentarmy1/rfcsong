@@ -2,4 +2,4 @@ build:
   docker:
     worker: Install
 run:
-  worker: python3 -m rocks
+  worker: python3 -m rfcsong
