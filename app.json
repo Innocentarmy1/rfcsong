@@ -1,9 +1,9 @@
 {
     "name": "Music Bot",
-    "logo": "https://telegra.ph/file/b92ed11ca9259ec96aaee.jpg",
-    "description": "Alexa Is A Powerful, Smart And Simple Music Bot.",
+    "logo": "https://te.legra.ph/file/0a3dc38df20f1b82564db.jpg",
+    "description": "rfcsong Is A Powerful, Smart And Simple Music Bot.",
     "keywords": ["music", "voice chat", "music bot", "telegram"],
-    "repository": "https://github.com/jankarikiduniya/Music-BOT",
+    "repository": "https://github.com/Innocentarmy1/rfcsong",
     "stack": "container",
     "env": {
         "API_ID": {
